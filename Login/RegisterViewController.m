@@ -68,7 +68,7 @@
     _phoneTF = [[UITextField alloc]initWithFrame:CGRectMake(TF_X+FONT_W,134+TF_W, 227, 34)];
     _phoneTF.contentVerticalAlignment = UIControlContentVerticalAlignmentCenter;
     _phoneTF.delegate = self;
-    [_phoneTF setPlaceholder:@"请输入电话号码"];
+    [_phoneTF setPlaceholder:@"请输入手机号码"];
     [_phoneTF setFont:[UIFont boldSystemFontOfSize:15]];
     _phoneTF.returnKeyType = UIReturnKeyDone;
     [_regIV addSubview:_phoneTF];
